@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.sm1n9.work4.ContactsMessageActivity">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="姓名："
+        android:textSize="22.0dip"
+        android:layout_marginLeft="5.0dip"/>
+    <TextView
+        android:id="@+id/danwei"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单位："
+        android:textSize="22.0dip"
+        android:layout_marginLeft="5.0dip"/>
+    <TextView
+        android:id="@+id/mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="电话："
+        android:textSize="22.0dip"
+        android:layout_marginLeft="5.0dip"/>
+    <TextView
+        android:id="@+id/qq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QQ："
+        android:textSize="22.0dip"
+        android:layout_marginLeft="5.0dip"/>
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="地址："
+        android:textSize="22.0dip"
+        android:layout_marginLeft="5.0dip"/>
+</LinearLayout>
